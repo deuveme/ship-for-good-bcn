@@ -24,9 +24,12 @@ const fadeUp = {
 
 const LUMA_URL = "#";
 const MEETUP_URL = "#";
+const FORTY_TWO_BARCELONA_URL = "https://www.42barcelona.com/es/";
 
 export function Hero() {
   const t = useTranslations("Hero");
+  const description = t("description");
+  const [descriptionStart, descriptionEnd] = description.split("42 Barcelona");
 
   return (
     <section className="min-h-[90vh] flex items-center justify-center pt-16">
@@ -74,7 +77,16 @@ export function Hero() {
           variants={fadeUp}
           className="text-lg sm:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed mb-12"
         >
-          {t("description")}
+          {descriptionStart}
+          <a
+            href={FORTY_TWO_BARCELONA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground underline underline-offset-2 hover:text-accent transition-colors"
+          >
+            42 Barcelona
+          </a>
+          {descriptionEnd}
         </motion.p>
 
         <motion.div

@@ -5,9 +5,12 @@ import { useTranslations } from "next-intl";
 
 const LUMA_URL = "#";
 const MEETUP_URL = "#";
+const FORTY_TWO_BARCELONA_URL = "https://www.42barcelona.com/es/";
 
 export function Footer() {
   const t = useTranslations("Footer");
+  const description = t("description");
+  const [descriptionStart, descriptionEnd] = description.split("42 Barcelona");
 
   return (
     <footer className="py-24 sm:py-32">
@@ -25,7 +28,16 @@ export function Footer() {
             <span className="text-accent">{t("titleHighlight")}</span>
           </h2>
           <p className="text-foreground-muted max-w-md mx-auto mb-10">
-            {t("description")}
+            {descriptionStart}
+            <a
+              href={FORTY_TWO_BARCELONA_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-foreground underline underline-offset-2 hover:text-accent transition-colors"
+            >
+              42 Barcelona
+            </a>
+            {descriptionEnd}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -54,7 +66,16 @@ export function Footer() {
             <span className="font-pixel text-foreground text-sm">Ship for Good</span>{" "}
             · {t("city")}
           </p>
-          <p>{t("venue")}</p>
+          <p>
+            <a
+              href={FORTY_TWO_BARCELONA_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors"
+            >
+              {t("venue")}
+            </a>
+          </p>
         </div>
       </div>
     </footer>
