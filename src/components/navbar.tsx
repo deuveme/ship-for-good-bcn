@@ -5,9 +5,9 @@ import { Locale } from "@/i18n/routing";
 import { motion } from "motion/react";
 import { useLocale, useTranslations } from "next-intl";
 
-const LUMA_URL = "#";
+const REGISTER_URL = "#"; // TODO: replace with registration URL when available
 
-const locales: Locale[] = ["es", "ca"];
+const locales: Locale[] = ["es", "ca", "en"];
 
 export function Navbar() {
   const t = useTranslations("Navbar");
@@ -22,8 +22,13 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border"
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-pixel text-xl tracking-tight">
-          {t("brand")}
+        <Link href="/" className="flex items-center">
+          <img
+            src="/logo.svg"
+            alt={t("logo_alt")}
+            height={36}
+            style={{ height: "36px", width: "auto" }}
+          />
         </Link>
 
         <div className="flex items-center gap-6">
@@ -68,9 +73,7 @@ export function Navbar() {
           </div>
 
           <a
-            href={LUMA_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={REGISTER_URL}
             className="text-sm font-medium bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover transition-colors"
           >
             {t("register")}

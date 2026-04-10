@@ -7,7 +7,7 @@ const container = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.15,
+      staggerChildren: 0.1,
     },
   },
 };
@@ -21,26 +21,17 @@ const fadeUp = {
   },
 } as const;
 
+const BENEFIT_KEYS = [
+  "benefit_0",
+  "benefit_1",
+  "benefit_2",
+  "benefit_3",
+  "benefit_4",
+  "benefit_5",
+] as const;
+
 export function HowItWorks() {
   const t = useTranslations("HowItWorks");
-
-  const steps = [
-    {
-      number: t("step1.number"),
-      title: t("step1.title"),
-      description: t("step1.description"),
-    },
-    {
-      number: t("step2.number"),
-      title: t("step2.title"),
-      description: t("step2.description"),
-    },
-    {
-      number: t("step3.number"),
-      title: t("step3.title"),
-      description: t("step3.description"),
-    },
-  ];
 
   return (
     <section id="how-it-works" className="py-24 sm:py-32">
@@ -65,23 +56,37 @@ export function HowItWorks() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-20"
         >
-          {steps.map((step) => (
+          {BENEFIT_KEYS.map((key, index) => (
             <motion.div
-              key={step.number}
+              key={key}
               variants={fadeUp}
-              className="group border border-border rounded-2xl p-8 hover:border-accent/30 transition-colors"
+              className="group border border-border rounded-2xl p-6 hover:border-accent/30 transition-colors"
             >
               <span className="text-xs font-mono text-accent mb-4 block">
-                {step.number}
+                {String(index + 1).padStart(2, "0")}
               </span>
-              <h3 className="font-pixel text-2xl mb-3">{step.title}</h3>
               <p className="text-sm text-foreground-muted leading-relaxed">
-                {step.description}
+                {t(key)}
               </p>
             </motion.div>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="border-t border-border pt-12"
+        >
+          <h3 className="font-pixel text-2xl sm:text-3xl tracking-tight mb-4">
+            {t("who_title")}
+          </h3>
+          <p className="text-sm text-foreground-muted leading-relaxed max-w-2xl">
+            {t("who_description")}
+          </p>
         </motion.div>
       </div>
     </section>

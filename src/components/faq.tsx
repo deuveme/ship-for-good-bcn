@@ -51,19 +51,16 @@ function FAQItem({
   );
 }
 
+const FAQ_KEYS = ["faq1", "faq2", "faq3", "faq4", "faq5", "faq6"] as const;
+
 export function FAQ() {
   const t = useTranslations("FAQ");
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const faqs = [
-    { question: t("faq1.question"), answer: t("faq1.answer") },
-    { question: t("faq2.question"), answer: t("faq2.answer") },
-    { question: t("faq3.question"), answer: t("faq3.answer") },
-    { question: t("faq4.question"), answer: t("faq4.answer") },
-    { question: t("faq5.question"), answer: t("faq5.answer") },
-    { question: t("faq6.question"), answer: t("faq6.answer") },
-    { question: t("faq7.question"), answer: t("faq7.answer") },
-  ];
+  const faqs = FAQ_KEYS.map((key) => ({
+    question: t(`${key}.question`),
+    answer: t(`${key}.answer`),
+  }));
 
   return (
     <section id="faq" className="py-24 sm:py-32">

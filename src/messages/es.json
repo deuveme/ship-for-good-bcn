@@ -1,158 +1,96 @@
 {
   "Metadata": {
-    "title": "Ship for Good — Hackathon para ONG | Barcelona",
-    "description": "Un hackathon de dos días en Barcelona donde personas creadoras ayudan a ONG a convertir sus ideas en soluciones reales. 17 y 18 de abril de 2025 en 42 Barcelona."
+    "title": "Ship For Good BCN — 1ª Edición",
+    "description": "Devs, Product Managers y Designers trabajando juntos para crear soluciones reales para equipos con impacto. 29–30 de mayo de 2026 en 42 Barcelona."
   },
   "Navbar": {
-    "brand": "Ship for Good",
+    "logo_alt": "Ship For Good",
     "schedule": "Programa",
     "howItWorks": "Cómo funciona",
     "faq": "Preguntas",
     "register": "Inscribirse",
     "language": {
       "es": "ES",
-      "ca": "CAT"
+      "ca": "CA",
+      "en": "EN"
     }
   },
   "Hero": {
-    "badge": "17–18 de abril de 2025 · Barcelona",
-    "titleStart": "Ship for",
-    "titleHighlight": "Good",
-    "description": "Un hackathon donde personas creadoras ayudan a ONG a convertir ideas en soluciones que funcionan. Dos días de colaboración real en 42 Barcelona.",
-    "ctaLuma": "Inscribirse en Luma",
-    "ctaMeetup": "Unirse en Meetup"
+    "headline": "No es otra hackathon. Es la primera que se construye para quien de verdad lo necesita.",
+    "subheadline": "Devs, Product Managers y Designers trabajando juntos para crear soluciones reales para equipos con impacto. Sin premios. Sin humo. Solo impacto.",
+    "tagline": "think · build · help",
+    "tags": "product · IA · people",
+    "cta": "Quiero construir algo que se use →"
   },
   "InfoBar": {
     "whenLabel": "Cuándo",
-    "whenValue": "17–18 de abril de 2025",
+    "whenValue": "29–30 de mayo de 2026",
     "whereLabel": "Dónde",
-    "whereValue": "42 Barcelona, edificio Telefónica",
-    "formatLabel": "Formato",
-    "formatValue": "1 tarde de introducción + 1 día completo de creación"
-  },
-  "HowItWorks": {
-    "eyebrow": "Cómo funciona",
-    "title": "Tres pasos para generar impacto",
-    "step1": {
-      "number": "01",
-      "title": "Las ONG presentan sus retos",
-      "description": "Las organizaciones comparten desafíos reales: desde mejorar operaciones internas hasta llegar a más personas."
-    },
-    "step2": {
-      "number": "02",
-      "title": "Las personas creadoras forman equipos",
-      "description": "Desarrolladores, diseñadoras y perfiles de producto se unen alrededor de los problemas que más les importan."
-    },
-    "step3": {
-      "number": "03",
-      "title": "Se construyen soluciones",
-      "description": "En una jornada intensa de trabajo, los equipos crean prototipos funcionales que las ONG pueden empezar a usar."
-    }
+    "whereValue": "42 Barcelona",
+    "formatLabel": "Horario",
+    "formatValue": "Viernes 18:00–21:00 · Sábado 9:00–17:00"
   },
   "Schedule": {
     "eyebrow": "Programa",
     "title": "Dos días, una misión",
-    "day1": {
-      "date": "17 de abril",
-      "label": "Jueves por la tarde",
-      "title": "Introducción",
-      "item1": {
-        "time": "18:00",
-        "event": "Apertura de puertas y networking"
-      },
-      "item2": {
-        "time": "18:30",
-        "event": "Bienvenida y visión general del hackathon"
-      },
-      "item3": {
-        "time": "19:00",
-        "event": "Las ONG presentan sus retos"
-      },
-      "item4": {
-        "time": "20:00",
-        "event": "Formación de equipos y planificación"
-      },
-      "item5": {
-        "time": "21:00",
-        "event": "Cierre y encuentro social"
-      }
-    },
-    "day2": {
-      "date": "18 de abril",
-      "label": "Viernes (jornada completa)",
-      "title": "Día de creación",
-      "item1": {
-        "time": "09:00",
-        "event": "Apertura de puertas y desayuno"
-      },
-      "item2": {
-        "time": "09:30",
-        "event": "Inicio y comienzo del trabajo"
-      },
-      "item3": {
-        "time": "13:00",
-        "event": "Comida y seguimiento con mentores"
-      },
-      "item4": {
-        "time": "16:00",
-        "event": "Sprint final y últimos detalles"
-      },
-      "item5": {
-        "time": "17:30",
-        "event": "Demos y presentaciones"
-      },
-      "item6": {
-        "time": "19:00",
-        "event": "Reconocimientos y celebración"
-      }
-    }
+    "day1_title": "Viernes 29 de mayo",
+    "day1_time": "18:00 – 21:00",
+    "day1_description": "Civio presenta los retos reales sobre los que trabajar. Se forman equipos (puedes venir con el tuyo o unirte a uno). Primeras soluciones. Networking y copas.",
+    "day2_title": "Sábado 30 de mayo",
+    "day2_time": "9:00 – 17:00",
+    "day2_description": "Jornada completa de trabajo: dev, diseño y producto en paralelo. Charlas por perfil durante el día. Mentoring continuo para desbloquear y avanzar. Showcase final con las soluciones más ambiciosas construidas con IA."
+  },
+  "CivioSection": {
+    "title": "Partner: Fundación Civio",
+    "description": "Fundación Civio es una fundación independiente que vela por el poder público, combate la opacidad institucional y utiliza el periodismo, la tecnología y los datos abiertos para dar a los ciudadanos acceso a información.",
+    "quote": "Los retos que trabajaremos son suyos. El impacto, de todos.",
+    "logo_alt": "Fundación Civio"
+  },
+  "HowItWorks": {
+    "eyebrow": "¿Qué obtienes?",
+    "title": "¿Qué obtienes?",
+    "benefit_0": "Trabajo con impacto real, no es un ejercicio.",
+    "benefit_1": "Product + IA + people — métricas reales, desarrollo de producto asistido por IA.",
+    "benefit_2": "Charlas específicas para devs, PMs y diseñadores.",
+    "benefit_3": "Mentoring durante el evento.",
+    "benefit_4": "Showcase de soluciones ambiciosas construidas con IA.",
+    "benefit_5": "Comunidad de personas que quieren construir cosas que importen.",
+    "who_title": "¿Para quién es?",
+    "who_description": "Para desarrolladores, product managers y diseñadores. No importa tu experiencia, lo que importa es tu actitud. think · build · help"
   },
   "FAQ": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Dudas habituales",
     "faq1": {
-      "question": "¿Quién puede participar?",
-      "answer": "Cualquier persona que quiera ayudar. Programadores, diseñadoras, product managers, analistas de datos, perfiles de comunicación... si tus habilidades pueden aportar a una ONG, este espacio también es para ti."
+      "question": "¿Necesito venir con un equipo?",
+      "answer": "No. Puedes formar uno el viernes."
     },
     "faq2": {
-      "question": "¿Necesito un perfil técnico?",
-      "answer": "No. Claro que hacen falta personas que desarrollen software, pero también necesitamos diseño, estrategia, comunicación y coordinación de proyectos. Las ONG participan compartiendo sus retos y trabajando con los equipos."
+      "question": "¿Hay premios?",
+      "answer": "No. El premio es que lo que construyas se use de verdad."
     },
     "faq3": {
-      "question": "¿Es gratis?",
-      "answer": "Sí. Ship for Good es totalmente gratuito. Ponemos el espacio, comida, bebidas y Wi-Fi. Tú solo tienes que traer tus ganas y tus herramientas."
+      "question": "¿Necesito experiencia en hackathons?",
+      "answer": "No."
     },
     "faq4": {
-      "question": "¿Tengo que venir los dos días?",
-      "answer": "Lo recomendamos mucho. El 17 de abril por la tarde se presentan los retos y se forman equipos: ese contexto es clave. El 18 es el día completo de creación. Si solo puedes venir uno, prioriza el día 18."
+      "question": "¿Qué pasa con lo que construimos?",
+      "answer": "El objetivo es que las soluciones tengan vida más allá del evento."
     },
     "faq5": {
-      "question": "¿Qué debería llevar?",
-      "answer": "Tu portátil, cargador y las herramientas que suelas usar. Tendremos regletas, Wi-Fi y monitores disponibles. Consejo práctico: trae algo de abrigo, el aire acondicionado puede estar fuerte."
+      "question": "¿Es gratis?",
+      "answer": "Sí."
     },
     "faq6": {
-      "question": "¿Qué pasa con los proyectos después del hackathon?",
-      "answer": "Queremos que salgan soluciones útiles para las ONG, no solo ideas. Animamos a los equipos a seguir colaborando después del evento y facilitaremos el traspaso y los siguientes pasos."
-    },
-    "faq7": {
-      "question": "¿Dónde es exactamente?",
-      "answer": "En 42 Barcelona, dentro del edificio de Telefónica en Barcelona. Compartiremos la dirección exacta y cómo llegar más cerca de la fecha."
+      "question": "¿Necesito asistir los dos días?",
+      "answer": "Idealmente sí."
     }
   },
-  "Sponsors": {
-    "eyebrow": "Aliados",
-    "title": "Con el apoyo de personas comprometidas",
-    "description": "Buscamos patrocinadores y aliados que quieran apoyar a las ONG y a la comunidad creadora en Barcelona.",
-    "logoPlaceholder": "Tu logo aquí",
-    "cta": "¿Te interesa patrocinar?"
-  },
   "Footer": {
-    "titleLine1": "¿Listos para construir",
-    "titleHighlight": "con impacto?",
-    "description": "Te esperamos el 17 y 18 de abril en 42 Barcelona. Seas una persona creadora o una ONG, aquí tienes tu sitio.",
-    "ctaLuma": "Inscribirse en Luma",
-    "ctaMeetup": "Unirse en Meetup",
-    "city": "Barcelona, 2025",
-    "venue": "42 Barcelona · edificio Telefónica"
+    "tagline": "think · build · help",
+    "closing": "Lo que hagas aquí puede cambiar algo de verdad.",
+    "register_cta": "Quiero registrarme →",
+    "year": "2026",
+    "venue": "42 Barcelona"
   }
 }

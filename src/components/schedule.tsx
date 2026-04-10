@@ -8,29 +8,14 @@ export function Schedule() {
 
   const days = [
     {
-      date: t("day1.date"),
-      label: t("day1.label"),
-      title: t("day1.title"),
-      items: [
-        { time: t("day1.item1.time"), event: t("day1.item1.event") },
-        { time: t("day1.item2.time"), event: t("day1.item2.event") },
-        { time: t("day1.item3.time"), event: t("day1.item3.event") },
-        { time: t("day1.item4.time"), event: t("day1.item4.event") },
-        { time: t("day1.item5.time"), event: t("day1.item5.event") },
-      ],
+      title: t("day1_title"),
+      time: t("day1_time"),
+      description: t("day1_description"),
     },
     {
-      date: t("day2.date"),
-      label: t("day2.label"),
-      title: t("day2.title"),
-      items: [
-        { time: t("day2.item1.time"), event: t("day2.item1.event") },
-        { time: t("day2.item2.time"), event: t("day2.item2.event") },
-        { time: t("day2.item3.time"), event: t("day2.item3.event") },
-        { time: t("day2.item4.time"), event: t("day2.item4.event") },
-        { time: t("day2.item5.time"), event: t("day2.item5.event") },
-        { time: t("day2.item6.time"), event: t("day2.item6.event") },
-      ],
+      title: t("day2_title"),
+      time: t("day2_time"),
+      description: t("day2_description"),
     },
   ];
 
@@ -55,36 +40,20 @@ export function Schedule() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {days.map((day, dayIndex) => (
             <motion.div
-              key={day.date}
+              key={day.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: dayIndex * 0.15 }}
               className="bg-background border border-border rounded-2xl p-8"
             >
-              <div className="flex items-baseline justify-between mb-6">
-                <div>
-                  <h3 className="font-pixel text-3xl">{day.date}</h3>
-                  <p className="text-sm text-foreground-muted mt-1">{day.label}</p>
-                </div>
-                <span className="text-xs uppercase tracking-widest text-accent font-medium">
-                  {day.title}
-                </span>
+              <div className="mb-6">
+                <h3 className="font-pixel text-2xl sm:text-3xl mb-1">{day.title}</h3>
+                <p className="text-sm font-mono text-accent">{day.time}</p>
               </div>
-
-              <div className="space-y-0 divide-y divide-border">
-                {day.items.map((item) => (
-                  <div
-                    key={`${day.date}-${item.time}`}
-                    className="flex items-baseline gap-4 py-3.5"
-                  >
-                    <span className="text-sm font-mono text-foreground-muted w-14 shrink-0">
-                      {item.time}
-                    </span>
-                    <span className="text-sm">{item.event}</span>
-                  </div>
-                ))}
-              </div>
+              <p className="text-sm text-foreground-muted leading-relaxed">
+                {day.description}
+              </p>
             </motion.div>
           ))}
         </div>

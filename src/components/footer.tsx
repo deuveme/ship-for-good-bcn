@@ -3,14 +3,10 @@
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 
-const LUMA_URL = "#";
-const MEETUP_URL = "#";
-const FORTY_TWO_BARCELONA_URL = "https://www.42barcelona.com/es/";
+const REGISTER_URL = "#"; // TODO: replace with registration URL when available
 
 export function Footer() {
   const t = useTranslations("Footer");
-  const description = t("description");
-  const [descriptionStart, descriptionEnd] = description.split("42 Barcelona");
 
   return (
     <footer className="py-24 sm:py-32">
@@ -22,60 +18,27 @@ export function Footer() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-pixel text-5xl sm:text-6xl md:text-7xl tracking-tight mb-6">
-            {t("titleLine1")}
-            <br />
-            <span className="text-accent">{t("titleHighlight")}</span>
-          </h2>
-          <p className="text-foreground-muted max-w-md mx-auto mb-10">
-            {descriptionStart}
-            <a
-              href={FORTY_TWO_BARCELONA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground underline underline-offset-2 hover:text-accent transition-colors"
-            >
-              42 Barcelona
-            </a>
-            {descriptionEnd}
+          <p className="text-xs uppercase tracking-widest text-accent mb-6">
+            {t("tagline")}
+          </p>
+          <p className="font-pixel text-3xl sm:text-4xl md:text-5xl tracking-tight mb-8 max-w-2xl mx-auto">
+            {t("closing")}
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href={LUMA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
-            >
-              {t("ctaLuma")}
-              <span aria-hidden="true">→</span>
-            </a>
-            <a
-              href={MEETUP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-border text-foreground px-8 py-3.5 rounded-full text-sm font-medium hover:bg-background-alt transition-colors"
-            >
-              {t("ctaMeetup")}
-            </a>
-          </div>
+          <a
+            href={REGISTER_URL}
+            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
+          >
+            {t("register_cta")}
+          </a>
         </motion.div>
 
         <div className="border-t border-border pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-foreground-muted">
           <p>
-            <span className="font-pixel text-foreground text-sm">Ship for Good</span>{" "}
-            · {t("city")}
+            <span className="font-pixel text-foreground text-sm">Ship For Good</span>{" "}
+            · Barcelona, {t("year")}
           </p>
-          <p>
-            <a
-              href={FORTY_TWO_BARCELONA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors"
-            >
-              {t("venue")}
-            </a>
-          </p>
+          <p>{t("venue")}</p>
         </div>
       </div>
     </footer>

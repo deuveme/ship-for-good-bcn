@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
       languages: {
         es: "/es",
         ca: "/ca",
+        en: "/en",
       },
     },
   };
