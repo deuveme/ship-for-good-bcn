@@ -28,9 +28,9 @@ Phase 1 (Setup)
 
 > Project initialization: logos and i18n wiring before any component work.
 
-- [ ] T001 Add `"en"` to `locales` array in `src/i18n/routing.ts`
-- [ ] T002 Save official Ship For Good logo SVG (provided by user) to `public/logo.svg`
-- [ ] T003 Download Civio official logo SVG from civio.es and save to `public/civio-logo.svg`
+- [x] T001 Add `"en"` to `locales` array in `src/i18n/routing.ts`
+- [x] T002 Save official Ship For Good logo SVG (provided by user) to `public/logo.svg`
+- [x] T003 Download Civio official logo SVG from civio.es and save to `public/civio-logo.svg`
 
 ---
 
@@ -40,9 +40,9 @@ Phase 1 (Setup)
 
 Depends on: Phase 1
 
-- [ ] T004 Update `src/messages/es.json` with full official kit content — keys: `navbar`, `hero`, `info_bar`, `schedule`, `civio_section`, `how_it_works`, `who_for`, `faq`, `footer`
-- [ ] T005 [P] Create `src/messages/ca.json` with Catalan translations matching structure of `es.json`
-- [ ] T006 [P] Create `src/messages/en.json` with English translations matching structure of `es.json`
+- [x] T004 Update `src/messages/es.json` with full official kit content — keys: `navbar`, `hero`, `info_bar`, `schedule`, `civio_section`, `how_it_works`, `who_for`, `faq`, `footer`
+- [x] T005 [P] Create `src/messages/ca.json` with Catalan translations matching structure of `es.json`
+- [x] T006 [P] Create `src/messages/en.json` with English translations matching structure of `es.json`
 
 ---
 
@@ -52,8 +52,8 @@ Depends on: Phase 1
 
 Depends on: T001, T002, T004, T005, T006
 
-- [ ] T007 [US1] Update `src/components/navbar.tsx` to display Ship For Good logo (`/logo.svg`) with alt text from `navbar.logo_alt`
-- [ ] T008 [US9] Update language toggle in `src/components/navbar.tsx` from ES/CA to ES/CA/EN
+- [x] T007 [US1] Update `src/components/navbar.tsx` to display Ship For Good logo (`/logo.svg`) with alt text from `navbar.logo_alt`
+- [x] T008 [US9] Update language toggle in `src/components/navbar.tsx` from ES/CA to ES/CA/EN
 
 ---
 
@@ -63,8 +63,8 @@ Depends on: T001, T002, T004, T005, T006
 
 Depends on: T004, T005, T006
 
-- [ ] T009 [P] [US2] Update `src/components/hero.tsx` with headline, subheadline, tagline (`think · build · help`), tags (`product · IA · people`), and CTA button reading `hero.cta` with `href="#"`
-- [ ] T010 [P] [US3] Update `src/components/info-bar.tsx` with dates, location, day1_time, and day2_time from `info_bar.*` i18n keys
+- [x] T009 [P] [US2] Update `src/components/hero.tsx` with headline, subheadline, tagline (`think · build · help`), tags (`product · IA · people`), and CTA button reading `hero.cta` with `href="#"`
+- [x] T010 [P] [US3] Update `src/components/info-bar.tsx` with dates, location, day1_time, and day2_time from `info_bar.*` i18n keys
 
 ---
 
@@ -74,9 +74,9 @@ Depends on: T004, T005, T006
 
 Depends on: T004, T005, T006
 
-- [ ] T011 [P] [US4] Update `src/components/schedule.tsx` with Day 1 (Viernes 29 mayo, 18:00–21:00) and Day 2 (Sábado 30 mayo, 9:00–17:00) using `schedule.*` i18n keys
-- [ ] T012 [P] [US5] Create new component `src/components/civio-section.tsx` displaying Civio logo (`/civio-logo.svg`), title, description, and quote from `civio_section.*` i18n keys
-- [ ] T013 [US5] Add `<CivioSection />` import and render in `src/app/[locale]/page.tsx` (after schedule section)
+- [x] T011 [P] [US4] Update `src/components/schedule.tsx` with Day 1 (Viernes 29 mayo, 18:00–21:00) and Day 2 (Sábado 30 mayo, 9:00–17:00) using `schedule.*` i18n keys
+- [x] T012 [P] [US5] Create new component `src/components/civio-section.tsx` displaying Civio logo (`/civio-logo.svg`), title, description, and quote from `civio_section.*` i18n keys
+- [x] T013 [US5] Add `<CivioSection />` import and render in `src/app/[locale]/page.tsx` (after schedule section)
 
 ---
 
@@ -86,8 +86,8 @@ Depends on: T004, T005, T006
 
 Depends on: T004, T005, T006
 
-- [ ] T014 [US6] Update `src/components/how-it-works.tsx` to render 6 benefits from `how_it_works.benefits` array
-- [ ] T015 [US7] Add "Who is it for?" block to `src/components/how-it-works.tsx` using `who_for.title` and `who_for.description` (includes tagline `think · build · help`)
+- [x] T014 [US6] Update `src/components/how-it-works.tsx` to render 6 benefits from `how_it_works.benefits` array
+- [x] T015 [US7] Add "Who is it for?" block to `src/components/how-it-works.tsx` using `who_for.title` and `who_for.description` (includes tagline `think · build · help`)
 
 ---
 
@@ -97,10 +97,10 @@ Depends on: T004, T005, T006
 
 Depends on: T004, T005, T006
 
-- [ ] T016 [P] [US8] Update `src/components/faq.tsx` to render 6 Q&A pairs from `faq` array in i18n messages
-- [ ] T017 [P] [US10] Remove `Sponsors` import and `<Sponsors />` usage from `src/app/[locale]/page.tsx`
-- [ ] T018 [P] [US10] Delete file `src/components/sponsors.tsx`
-- [ ] T019 [P] [US11] Update `src/components/footer.tsx` with tagline, closing copy, register CTA (`href="#"`), year (2026), and venue (42 Barcelona) using `footer.*` i18n keys
+- [x] T016 [P] [US8] Update `src/components/faq.tsx` to render 6 Q&A pairs from `faq` array in i18n messages
+- [x] T017 [P] [US10] Remove `Sponsors` import and `<Sponsors />` usage from `src/app/[locale]/page.tsx`
+- [x] T018 [P] [US10] Delete file `src/components/sponsors.tsx`
+- [x] T019 [P] [US11] Update `src/components/footer.tsx` with tagline, closing copy, register CTA (`href="#"`), year (2026), and venue (42 Barcelona) using `footer.*` i18n keys
 
 ---
 
@@ -110,7 +110,7 @@ Depends on: T004, T005, T006
 
 Depends on: All previous phases
 
-- [ ] T020 Search codebase for leftover placeholder content (`"abril"`, `"2025"`, `"Tu logo"`, generic NGO text) and confirm all replaced
+- [x] T020 Search codebase for leftover placeholder content (`"abril"`, `"2025"`, `"Tu logo"`, generic NGO text) and confirm all replaced
 - [ ] T021 [P] Visual review of full page on desktop and mobile for all three languages (ES / CA / EN)
 - [ ] T022 [P] Verify language toggle correctly switches content across all sections (hero, info bar, schedule, Civio, FAQ, footer)
 
