@@ -74,7 +74,7 @@ export function PartnershipsSection() {
               <img
                 src={asset("/42barcelona-full-logo.svg")}
                 alt="42Barcelona"
-                style={{ width: "120px", height: "auto" }}
+                style={{ width: "150px", height: "auto" }}
               />
             </a>
           </div>
