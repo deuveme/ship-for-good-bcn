@@ -72,7 +72,7 @@ export function PartnershipsSection() {
           <div className="shrink-0 md:w-[160px] flex items-center justify-center">
             <a href="https://www.42barcelona.com/es/" target="_blank" rel="noopener noreferrer">
               <img
-                src="https://candidatura.42barcelona.com/uploads/admissions/campus/logo_website/45/Logo_42_Barcelona_Horizontal-min.svg"
+                src={asset("/42barcelona-full-logo.svg")}
                 alt="42Barcelona"
                 style={{ width: "120px", height: "auto" }}
               />

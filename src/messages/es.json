@@ -16,7 +16,7 @@
     }
   },
   "Hero": {
-    "headline": "No es otra hackathon. Es la primera que se construye para quien de verdad lo necesita.",
+    "headline": "No es otra hackathon.\nLo que hagas aquí cambiará algo de verdad.",
     "subheadline": "Devs, Product Managers y Designers trabajando juntos para crear soluciones reales. Sin premios. Sin humo. Solo impacto.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
@@ -103,7 +103,7 @@
   },
   "Footer": {
     "tagline": "think · build · help",
-    "closing": "Lo que hagas aquí puede cambiar algo de verdad.",
+    "closing": "Es la primera que se construye para quien de verdad lo necesita.",
     "register_cta": "Próximamente te podrás registrar →",
     "coming_soon": "Proximamente se abrirá el registro",
     "year": "2026",
