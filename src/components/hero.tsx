@@ -1,7 +1,14 @@
 "use client";
 
+import { asset } from "@/lib/asset";
 import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
+
+const partners = [
+  { name: "Civio", logo: "/civio-logo.svg", url: "https://civio.es/", width: 130 },
+  { name: "42Barcelona", logo: "/42barcelona-full-logo.svg", url: "https://www.42barcelona.com/es/", width: 120 },
+  { name: "Software Crafters BCN", logo: "/sbcn-logo.svg", url: "https://softwarecrafters.barcelona/", width: 65 },
+];
 
 const container = {
   hidden: {},
@@ -63,6 +70,27 @@ export function Hero() {
           >
             {t("cta")}
           </button>
+        </motion.div>
+
+        <motion.div
+          variants={fadeUp}
+          className="flex items-center justify-center gap-10 mt-10 flex-wrap"
+        >
+          {partners.map((partner) => (
+            <a
+              key={partner.name}
+              href={partner.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-70 transition-opacity"
+            >
+              <img
+                src={asset(partner.logo)}
+                alt={partner.name}
+                style={{ width: `${partner.width}px`, height: "auto" }}
+              />
+            </a>
+          ))}
         </motion.div>
       </motion.div>
     </section>
