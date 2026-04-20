@@ -62,12 +62,13 @@ export function Hero() {
         </motion.div>
 
         <motion.div variants={fadeUp}>
-          <a
-            href={REGISTER_URL}
-            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
+          <button
+            disabled
+            title={t("coming_soon")}
+            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {t("cta")}
-          </a>
+          </button>
         </motion.div>
       </motion.div>
     </section>
