@@ -18,21 +18,31 @@ export function CivioSection() {
           className="flex flex-col md:flex-row items-center gap-12 border border-border rounded-2xl p-10 sm:p-14"
         >
           <div className="shrink-0">
-            <img
-              src={asset("/civio-logo.svg")}
-              alt={t("logo_alt")}
-              width={160}
-              height={36}
-              style={{ width: "160px", height: "auto", filter: "invert(1)" }}
-            />
+            <a href="https://civio.es/" target="_blank" rel="noopener noreferrer">
+              <img
+                src={asset("/civio-logo.svg")}
+                alt={t("logo_alt")}
+                width={160}
+                height={36}
+                style={{ width: "160px", height: "auto" }}
+              />
+            </a>
           </div>
 
           <div className="flex-1">
             <p className="text-xs uppercase tracking-widest text-accent mb-4">
-              {t("title")}
+              <a href="https://civio.es/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                {t("title")}
+              </a>
             </p>
             <p className="text-sm text-foreground-muted leading-relaxed mb-6">
-              {t("description")}
+              {t.rich("description", {
+                civio: (chunks) => (
+                  <a href="https://civio.es/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    {chunks}
+                  </a>
+                ),
+              })}
             </p>
             <blockquote className="border-l-2 border-accent pl-4 text-sm font-medium">
               {t("quote")}
