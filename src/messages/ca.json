@@ -8,7 +8,7 @@
     "schedule": "Programa",
     "howItWorks": "Com funciona",
     "faq": "Preguntes",
-    "register": "Inscriure's",
+    "register": "Properament",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -90,7 +90,7 @@
   "Footer": {
     "tagline": "think · build · help",
     "closing": "El que facis aquí pot canviar alguna cosa de debò.",
-    "register_cta": "Vull registrar-me →",
+    "register_cta": "Properament et podràs registrar →",
     "year": "2026",
     "venue": "42 Barcelona"
   }

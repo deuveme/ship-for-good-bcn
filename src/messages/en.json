@@ -8,7 +8,7 @@
     "schedule": "Schedule",
     "howItWorks": "How it works",
     "faq": "FAQ",
-    "register": "Register",
+    "register": "Coming soon",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -90,7 +90,7 @@
   "Footer": {
     "tagline": "think · build · help",
     "closing": "What you build here can change something for real.",
-    "register_cta": "I want to register →",
+    "register_cta": "Coming soon, you'll be able to register →",
     "year": "2026",
     "venue": "42 Barcelona"
   }
