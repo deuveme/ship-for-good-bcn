@@ -20,7 +20,7 @@
     "subheadline": "Devs, Product Managers i Designers treballant junts per crear solucions reals per a equips amb impacte. Sense premis. Sense fum. Només impacte.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
-    "cta": "Vull construir alguna cosa que s'usi (Molt properament)",
+    "cta": "Vull construir alguna cosa que ajudi (Molt properament)",
     "coming_soon": "Proximament s'obrirà el registre"
   },
   "InfoBar": {
@@ -29,7 +29,7 @@
     "whereLabel": "On",
     "whereValue": "42 Barcelona",
     "formatLabel": "Horari",
-    "formatValue": "Divendres 18:00–21:00 · Dissabte 9:00–17:00"
+    "formatValue": "Divendres 18:00–21:00 · Dissabte 9:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Programa",

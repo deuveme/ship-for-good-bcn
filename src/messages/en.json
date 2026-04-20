@@ -20,7 +20,7 @@
     "subheadline": "Devs, Product Managers and Designers working together to create real solutions for teams with impact. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
-    "cta": "I want to build something that gets used (Coming very soon)",
+    "cta": "I want to build something that helps (Coming very soon)",
     "coming_soon": "Registration coming soon"
   },
   "InfoBar": {
@@ -29,7 +29,7 @@
     "whereLabel": "Where",
     "whereValue": "42 Barcelona",
     "formatLabel": "Schedule",
-    "formatValue": "Friday 18:00–21:00 · Saturday 9:00–17:00"
+    "formatValue": "Friday 18:00–21:00 · Saturday 9:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Schedule",
