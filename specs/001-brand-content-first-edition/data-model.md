@@ -39,7 +39,7 @@ This is a **content and localization feature** with no database, API, or data st
     "dates": "29–30 de mayo de 2026",
     "location": "42 Barcelona",
     "day1_time": "18:00–21:00",
-    "day2_time": "9:00–17:00"
+    "day2_time": "9:00–21:00"
   },
   "schedule": {
     "day1_title": "Viernes 29 de mayo",
