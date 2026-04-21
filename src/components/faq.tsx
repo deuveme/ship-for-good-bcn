@@ -21,7 +21,7 @@ function FAQItem({
         onClick={onToggle}
         className="w-full flex items-center justify-between py-5 text-left cursor-pointer group"
       >
-        <span className="text-sm font-medium pr-8 group-hover:text-accent transition-colors">
+        <span className="text-base font-medium pr-8 group-hover:text-accent transition-colors">
           {question}
         </span>
         <motion.span
@@ -41,7 +41,7 @@ function FAQItem({
             transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             className="overflow-hidden"
           >
-            <p className="text-sm text-foreground-muted leading-relaxed pb-5 pr-12">
+            <p className="text-base text-foreground-muted leading-relaxed pb-5 pr-12">
               {answer}
             </p>
           </motion.div>

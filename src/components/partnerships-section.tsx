@@ -47,7 +47,7 @@ export function PartnershipsSection() {
                 {t("civio_title")}
               </a>
             </p>
-            <p className="text-sm text-foreground-muted leading-relaxed mb-6">
+            <p className="text-base text-foreground-muted leading-relaxed mb-6">
               {t.rich("civio_description", {
                 civio: (chunks) => (
                   <a href="https://civio.es/" target="_blank" rel="noopener noreferrer" className="hover:underline">
@@ -84,7 +84,7 @@ export function PartnershipsSection() {
                 {t("venue_title")}
               </a>
             </p>
-            <p className="text-sm text-foreground-muted leading-relaxed">
+            <p className="text-base text-foreground-muted leading-relaxed">
               {t("venue_description")}
             </p>
           </div>
@@ -112,7 +112,7 @@ export function PartnershipsSection() {
                 {t("supporter_title")}
               </a>
             </p>
-            <p className="text-sm text-foreground-muted leading-relaxed">
+            <p className="text-base text-foreground-muted leading-relaxed">
               {t("supporter_description")}
             </p>
           </div>

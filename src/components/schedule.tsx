@@ -41,7 +41,7 @@ export function Schedule() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-16"
         >
-          <p className="text-sm text-foreground-muted leading-relaxed max-w-4xl">
+          <p className="text-base text-foreground-muted leading-relaxed max-w-4xl">
             {t("intro_description")}
           </p>
         </motion.div>
@@ -60,7 +60,7 @@ export function Schedule() {
                 <h3 className="font-pixel text-2xl sm:text-3xl mb-1">{day.title}</h3>
                 <p className="text-sm font-mono text-accent">{day.time}</p>
               </div>
-              <p className="text-sm text-foreground-muted leading-relaxed">
+              <p className="text-base text-foreground-muted leading-relaxed">
                 {day.description}
               </p>
             </motion.div>

@@ -64,7 +64,7 @@ export function HowItWorks() {
               <span className="text-xs font-mono text-accent mb-4 block">
                 {String(index + 1).padStart(2, "0")}
               </span>
-              <p className="text-sm text-foreground-muted leading-relaxed">
+              <p className="text-base text-foreground-muted leading-relaxed">
                 {t(key)}
               </p>
             </motion.div>
@@ -81,9 +81,9 @@ export function HowItWorks() {
           <h3 className="font-pixel text-2xl sm:text-3xl tracking-tight mb-4">
             {t("who_title")}
           </h3>
-          <div className="text-sm text-foreground-muted leading-relaxed">
+          <div className="text-base text-foreground-muted leading-relaxed">
             <p className="max-w-4xl">{t("who_description")}</p>
-            <p className="mt-2">{t("who_tagline")}</p>
+            <p className="mt-2 whitespace-nowrap">{t("who_tagline")}</p>
           </div>
         </motion.div>
       </div>
