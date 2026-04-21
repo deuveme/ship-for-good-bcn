@@ -61,7 +61,7 @@ export function HowItWorks() {
               variants={fadeUp}
               className="group border border-border rounded-2xl p-6 hover:border-accent/30 transition-colors"
             >
-              <span className="text-xs font-mono text-accent mb-4 block">
+              <span className="text-sm font-mono text-accent mb-4 block">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <p className="text-base text-foreground-muted leading-relaxed">
