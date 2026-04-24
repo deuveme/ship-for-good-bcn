@@ -16,7 +16,7 @@
     }
   },
   "Hero": {
-    "headline": "It's not another hackathon. It's the first one built for those who truly need it.",
+    "headline": "It's not another hackathon.\nWhat you build here will change something for real.",
     "subheadline": "Devs, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
@@ -40,18 +40,18 @@
     "day1_description": "Civio presents the real challenges to work on. Teams are formed (you can come with yours or join one). First sketches and networking.",
     "day2_title": "Saturday 30 May",
     "day2_time": "9:00 – 21:00",
-    "day2_description": "Full-day work session: dev, design and product running in parallel. Profile-specific talks throughout the day. Continuous mentoring to unblock and advance. Final showcase of the most ambitious AI-powered solutions built during the event."
+    "day2_description": "Full-day work session: dev, design and product running in parallel. Profile-specific talks throughout the day. Continuous mentoring to unblock and advance. Final showcase of the most ambitious solutions built with AI."
   },
   "CivioSection": {
-    "title": "Who help us",
+    "title": "They help us",
     "civio_title": "Fundación Civio",
     "civio_alt": "Fundación Civio",
     "civio_description": "<civio>Fundación Civio</civio> is an independent foundation that monitors public power, fights institutional opacity, and uses journalism, technology, and open data to give citizens access to information.",
     "quote": "The challenges we will work on are theirs. The impact, everyone's.",
     "venue_title": "42Barcelona",
-    "venue_description": "A coding school by Fundación Telefónica with an innovative peer-to-peer learning model. A global community of students and technology professionals that fosters personal and professional growth through technical excellence and continuous learning.",
+    "venue_description": "A coding school by Fundación Telefónica with an innovative peer-to-peer learning model. A global community of students and technology professionals that fosters personal and professional growth through technical excellence.",
     "supporter_title": "Software Crafters BCN",
-    "supporter_description": "A community of developers passionate about code craftsmanship, engineering best practices, and continuous professional growth. We promote technical excellence, collaborative learning, and the construction of quality software through shared knowledge and experience."
+    "supporter_description": "A community of developers passionate about code craftsmanship, engineering best practices, and continuous professional growth. We promote technical excellence, collaborative learning, and the construction of quality software."
   },
   "HowItWorks": {
     "eyebrow": "What do you get?",
@@ -104,7 +104,7 @@
   },
   "Footer": {
     "tagline": "think · build · help",
-    "closing": "What you build here can change something for real.",
+    "closing": "It's the first one built for those who truly need it.",
     "register_cta": "Coming soon, you'll be able to register →",
     "coming_soon": "Registration coming soon",
     "year": "2026",

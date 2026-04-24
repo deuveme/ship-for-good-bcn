@@ -16,7 +16,7 @@
     }
   },
   "Hero": {
-    "headline": "No és una altra hackathon. És la primera que es construeix per a qui realment ho necessita.",
+    "headline": "No és una altra hackathon.\nEl que facis aquí canviarà alguna cosa de debò.",
     "subheadline": "Devs, Product Managers i Designers treballant junts per crear solucions reals. Sense premis. Sense fum. Només impacte.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
@@ -94,7 +94,7 @@
       "answer": "Idealment sí."
     },
     "faq7": {
-      "question": "Habrà mentors i xerrades?",
+      "question": "Hi haurà mentors i xerrades?",
       "answer": "Sí. Habrà mentoring continu per desbloquejar problemes i avançar. A més, xerrades específiques per a devs, PMs i dissenyadors durant l'esdeveniment."
     },
     "faq8": {
@@ -104,7 +104,7 @@
   },
   "Footer": {
     "tagline": "think · build · help",
-    "closing": "El que facis aquí pot canviar alguna cosa de debò.",
+    "closing": "És la primera que es construeix per a qui de debò ho necessita.",
     "register_cta": "Properament et podràs registrar →",
     "coming_soon": "Proximament s'obrirà el registre",
     "year": "2026",
