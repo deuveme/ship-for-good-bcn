@@ -15,6 +15,14 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+const BASE_URL = "https://www.shipforgood.org";
+
+const OG_LOCALE: Record<string, string> = {
+  es: "es_ES",
+  ca: "ca_ES",
+  en: "en_US",
+};
+
 export async function generateMetadata({ params }: Omit<Props, "children">): Promise<Metadata> {
   const { locale } = await params;
 
@@ -23,8 +31,11 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
   }
 
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const ogLocale = OG_LOCALE[locale] ?? "es_ES";
+  const alternateLocales = Object.values(OG_LOCALE).filter((l) => l !== ogLocale);
 
   return {
+    metadataBase: new URL(BASE_URL),
     title: t("title"),
     description: t("description"),
     alternates: {
@@ -34,6 +45,22 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
         ca: "/ca",
         en: "/en",
       },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: `${BASE_URL}/${locale}`,
+      siteName: "Ship For Good BCN",
+      locale: ogLocale,
+      alternateLocale: alternateLocales,
+      type: "website",
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: t("title") }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/og.png"],
     },
   };
 }
