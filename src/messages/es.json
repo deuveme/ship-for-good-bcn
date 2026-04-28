@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "Ship For Good BCN — 1ª Edición",
+    "title": "Ship For Good — 1ª Edición",
     "description": "Devs, Product Managers y Designers que trabajan en equipo para crear soluciones reales para equipos con impacto. 29–30 de mayo de 2026 en 42 Barcelona."
   },
   "Navbar": {
@@ -31,7 +31,7 @@
     "whereLabel": "Dónde",
     "whereValue": "42 Barcelona",
     "formatLabel": "Horario",
-    "formatValue": "Viernes 18:00–21:00 · Sábado 10:00–21:00"
+    "formatValue": "Viernes 18:00–21:00\nSábado 10:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Programa",

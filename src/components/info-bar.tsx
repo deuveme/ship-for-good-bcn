@@ -26,7 +26,7 @@ export function InfoBar() {
             <p className="text-xs uppercase tracking-widest text-foreground-muted mb-2">
               {item.label}
             </p>
-            <p className="text-base font-medium">
+            <p className="text-base font-medium whitespace-pre-line">
               {item.href ? (
                 <a href={item.href} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
                   {item.value}

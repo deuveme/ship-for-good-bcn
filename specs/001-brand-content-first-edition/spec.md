@@ -8,7 +8,7 @@
 
 ## Goal
 
-Update the Ship For Good website so that all visible content — texts, logos, dates, and language options — reflect the official 1st edition of the event. Visitors should land on a page that accurately represents Ship For Good BCN 1ª Edición, including the partnership with Fundación Civio, the official tagline, and the correct event dates.
+Update the Ship For Good website so that all visible content — texts, logos, dates, and language options — reflect the official 1st edition of the event. Visitors should land on a page that accurately represents Ship For Good 1ª Edición, including the partnership with Fundación Civio, the official tagline, and the correct event dates.
 
 ---
 

@@ -49,7 +49,7 @@
 
 - [x] CHK001 Are requirements defined for all 11 user stories (US-01 to US-11) — none missing or underspecified? [Completeness, Spec §User Stories] — spec.md define US-01 a US-11 con ACs completos
 - [x] CHK002 Are all 9 i18n message namespaces (`navbar`, `hero`, `info_bar`, `schedule`, `civio_section`, `how_it_works`, `who_for`, `faq`, `footer`) fully specified in data-model.md? [Completeness, data-model.md] — todos los namespaces con claves y valores definidos
-- [x] CHK003 Are the page `<title>` and meta description copy requirements specified? [Gap resuelto, Spec §US-01] — `metadata.title = "Ship For Good BCN — 1ª Edición"` añadido a data-model.md
+- [x] CHK003 Are the page `<title>` and meta description copy requirements specified? [Gap resuelto, Spec §US-01] — `metadata.title = "Ship For Good — 1ª Edición"` añadido a data-model.md
 - [x] CHK004 Are requirements for the new `civio-section.tsx` complete — logo, title, description, quote, and its position in the page layout? [Completeness, Spec §US-05] — logo, textos y posición (después de schedule) definidos en spec + data-model + tasks T013
 - [x] CHK005 Are all 6 benefit strings for the "What you get" section (US-06) explicitly provided in the data model? [Completeness, Spec §US-06] — `how_it_works.benefits` array con los 6 ítems en data-model.md
 
@@ -59,7 +59,7 @@
 - [x] CHK007 Is "accurate translations" (US-09 EN/CA ACs) defined — who determines accuracy? [Clarity, Spec §US-09] — spec §Assumptions confirma que el equipo de desarrollo las crea sin revisión externa; confirmado por el PM en gathered-context
 - [x] CHK008 Is "consistent across all sections" (US-03 dates) mapped to specific sections? [Clarity, Spec §US-03] — US-03 AC enumera explícitamente: info bar, schedule, footer y metadata
 - [x] CHK009 Is it specified whether pending CTAs should look disabled or active? [Gap resuelto, Spec §US-02, US-11] — PM confirmó: botones activos normales con `href="#"` y comentario en código
-- [x] CHK010 Is the exact page `<title>` copy specified? [Gap resuelto, Spec §US-01] — resuelto en CHK003: "Ship For Good BCN — 1ª Edición"
+- [x] CHK010 Is the exact page `<title>` copy specified? [Gap resuelto, Spec §US-01] — resuelto en CHK003: "Ship For Good — 1ª Edición"
 
 ## Requirement Consistency
 
@@ -90,7 +90,7 @@
 ## Summary
 
 **Critical gaps — RESOLVED:**
-- CHK003 ✅ Page title: "Ship For Good BCN — 1ª Edición" — added to data-model.md `metadata.title` key
+- CHK003 ✅ Page title: "Ship For Good — 1ª Edición" — added to data-model.md `metadata.title` key
 - CHK009 ✅ Pending CTAs render as normal active buttons with `href="#"` and inline code comment
 - CHK014 ✅ Placeholder strings to replace: `"abril de 2025"`, `"17 de abril"`, `"18 de abril"`, `"Tu logo aquí"`, `"ONG"` references, `"Barcelona, 2025"`, `"edificio Telefónica"` in old context
 
