@@ -51,7 +51,7 @@ function FAQItem({
   );
 }
 
-const FAQ_KEYS = ["faq1", "faq2", "faq3", "faq4", "faq5", "faq6", "faq7", "faq8"] as const;
+const FAQ_KEYS = ["faq1", "faq2", "faq3", "faq4", "faq5", "faq6", "faq7", "faq8", "faq9", "faq10", "faq11", "faq12", "faq13", "faq14", "faq15", "faq16", "faq17"] as const;
 
 export function FAQ() {
   const t = useTranslations("FAQ");
@@ -94,6 +94,22 @@ export function FAQ() {
             />
           ))}
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-10 text-sm text-foreground-muted"
+        >
+          {t("contact_prompt")}{" "}
+          <a
+            href="mailto:info@softwarecrafters.barcelona"
+            className="text-accent hover:underline"
+          >
+            info@softwarecrafters.barcelona
+          </a>
+        </motion.p>
       </div>
     </section>
   );

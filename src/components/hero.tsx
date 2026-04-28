@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 const partners = [
   { name: "Civio", logo: "/civio-logo.svg", url: "https://civio.es/", width: 150 },
   { name: "42Barcelona", logo: "/42-barcelona-logo.png", url: "https://www.42barcelona.com/es/", width: 150 },
-  { name: "Software Crafters BCN", logo: "/sbcn-logo.svg", url: "https://softwarecrafters.barcelona/", width: 80 },
+  { name: "Software Crafters Barcelona", logo: "/sbcn-logo.svg", url: "https://softwarecrafters.barcelona/", width: 80 },
 ];
 
 const container = {
@@ -28,8 +28,6 @@ const fadeUp = {
     transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as const },
   },
 } as const;
-
-const REGISTER_URL = "#"; // TODO: replace with registration URL when available
 
 export function Hero() {
   const t = useTranslations("Hero");
@@ -63,13 +61,13 @@ export function Hero() {
         </motion.p>
 
         <motion.div variants={fadeUp}>
-          <button
-            disabled
-            title={t("coming_soon")}
-            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+          <a
+            href="#faq"
+            aria-label={t("coming_soon")}
+            className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
           >
             {t("cta")}
-          </button>
+          </a>
         </motion.div>
 
         <motion.div

@@ -101,7 +101,7 @@ export function PartnershipsSection() {
             <a href="https://softwarecrafters.barcelona/" target="_blank" rel="noopener noreferrer">
               <img
                 src="/sbcn-logo.svg"
-                alt="Software Crafters BCN"
+                alt="Software Crafters Barcelona"
                 style={{ width: "120px", height: "auto" }}
               />
             </a>

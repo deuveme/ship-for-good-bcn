@@ -4,17 +4,46 @@ import { asset } from "@/lib/asset";
 import { Link, usePathname } from "@/i18n/navigation";
 import { Locale } from "@/i18n/routing";
 import { motion } from "motion/react";
+import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
-const REGISTER_URL = "#"; // TODO: replace with registration URL when available
-
 const locales: Locale[] = ["es", "ca", "en"];
+
+const NAV_SECTIONS = ["schedule", "how-it-works", "faq", "code-of-conduct"] as const;
 
 export function Navbar() {
   const t = useTranslations("Navbar");
   const tHero = useTranslations("Hero");
   const locale = useLocale() as Locale;
   const pathname = usePathname();
+  const [activeSection, setActiveSection] = useState<string | null>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        }
+      },
+      { rootMargin: "-40% 0px -55% 0px" }
+    );
+
+    for (const id of NAV_SECTIONS) {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  const navLinkClass = (sectionId: string) =>
+    `text-sm transition-colors hidden sm:block ${
+      activeSection === sectionId
+        ? "text-foreground font-medium"
+        : "text-foreground-muted hover:text-foreground"
+    }`;
 
   return (
     <motion.nav
@@ -34,23 +63,17 @@ export function Navbar() {
         </Link>
 
         <div className="flex items-center gap-6">
-          <a
-            href="#schedule"
-            className="text-sm text-foreground-muted hover:text-foreground transition-colors hidden sm:block"
-          >
+          <a href="#schedule" className={navLinkClass("schedule")}>
             {t("schedule")}
           </a>
-          <a
-            href="#how-it-works"
-            className="text-sm text-foreground-muted hover:text-foreground transition-colors hidden sm:block"
-          >
+          <a href="#how-it-works" className={navLinkClass("how-it-works")}>
             {t("howItWorks")}
           </a>
-          <a
-            href="#faq"
-            className="text-sm text-foreground-muted hover:text-foreground transition-colors hidden sm:block"
-          >
+          <a href="#faq" className={navLinkClass("faq")}>
             {t("faq")}
+          </a>
+          <a href="#code-of-conduct" className={navLinkClass("code-of-conduct")}>
+            {t("codeOfConduct")}
           </a>
 
           <div className="flex items-center rounded-full border border-border p-1">
@@ -74,13 +97,13 @@ export function Navbar() {
             })}
           </div>
 
-          <button
-            disabled
-            title={tHero("coming_soon")}
-            className="text-sm font-medium bg-accent text-white px-4 py-2 rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
+          <a
+            href="#faq"
+            aria-label={tHero("coming_soon")}
+            className="text-sm font-medium bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover transition-colors"
           >
             {t("register")}
-          </button>
+          </a>
         </div>
       </div>
     </motion.nav>
