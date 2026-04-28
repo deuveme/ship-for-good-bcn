@@ -17,7 +17,8 @@
     }
   },
   "Hero": {
-    "headline": "No es otra hackathon.\nEs la primera que se construye para quien de verdad lo necesita.",
+    "headline_top": "No es otra hackathon.",
+    "headline_bottom": "Construye para quien de verdad lo necesita.",
     "subheadline": "Desarrollo, producto y diseño juntos para crear soluciones reales. Sin humo. Sin premios. Solo impacto.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
