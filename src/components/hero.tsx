@@ -48,9 +48,14 @@ export function Hero() {
 
         <motion.h1
           variants={fadeUp}
-          className="font-pixel text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight mb-8 max-w-3xl mx-auto"
+          className="font-pixel tracking-tight max-w-3xl mx-auto mb-8"
         >
-          {t("headline")}
+          <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-4">
+            {t("headline_top")}
+          </span>
+          <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
+            {t("headline_bottom")}
+          </span>
         </motion.h1>
 
         <motion.p
