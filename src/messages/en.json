@@ -8,7 +8,8 @@
     "schedule": "Schedule",
     "howItWorks": "How it works",
     "faq": "FAQ",
-    "register": "Coming soon",
+    "codeOfConduct": "Code of conduct",
+    "register": "Register: Thu 30 · 11 AM",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -20,8 +21,8 @@
     "subheadline": "Devs, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
-    "cta": "I want to build something that helps (Coming very soon)",
-    "coming_soon": "Registration coming soon"
+    "cta": "Registration opens this Thursday 30 at 11 AM",
+    "coming_soon": "Registration opens Thursday, April 30 at 11:00 AM"
   },
   "InfoBar": {
     "whenLabel": "When",
@@ -70,37 +71,79 @@
     "eyebrow": "FAQ",
     "title": "Common questions",
     "faq1": {
-      "question": "Do I need to come with a team?",
-      "answer": "No. You can form one on Friday."
+      "question": "When and where do I register?",
+      "answer": "Registration opens on Thursday, April 30 at 11:00 AM (Barcelona time). It will be through a form accessible from this website."
     },
     "faq2": {
-      "question": "Are there prizes?",
-      "answer": "No. The prize is that what you build actually gets used."
+      "question": "Can I register alone or with my team?",
+      "answer": "Both options. The form lets you sign up individually or register a team of 4 to 6 people. We'll ask for contact details and experience for each participant."
     },
     "faq3": {
-      "question": "Do I need prior hackathon experience?",
-      "answer": "No."
+      "question": "How many spots are available?",
+      "answer": "60 spots split into teams of 4 to 6 people. Spots are limited, so we recommend registering as soon as it opens."
     },
     "faq4": {
-      "question": "What happens to what we build?",
-      "answer": "The goal is that solutions have life beyond the event."
-    },
-    "faq5": {
       "question": "Is it free?",
       "answer": "Yes."
     },
+    "faq5": {
+      "question": "How do I get to the venue?",
+      "answer": "The event takes place at 42 Barcelona, in the Parc Tecnològic de Barcelona Activa (Carrer Albert Einstein 8-14, 08042 Barcelona). By public transport you can take metro L3 (Canyelles stop) or buses V19, 27 and 60."
+    },
     "faq6": {
-      "question": "Do I need to attend both days?",
-      "answer": "Ideally yes."
+      "question": "What should I bring?",
+      "answer": "Your ID for check-in. You can bring your own laptop if you want, though we'll have computers available at the venue. Everything else (food, drinks, WiFi, power outlets) is on us."
     },
     "faq7": {
+      "question": "Do I need to attend both days?",
+      "answer": "Yes, absolutely."
+    },
+    "faq8": {
+      "question": "Will there be food? What about dietary restrictions?",
+      "answer": "Yes. On Saturday we cover breakfast, lunch, coffee and tea throughout the day, and pizzas at closing. On Friday there will be drinks and light snacks. If you have any dietary restrictions, let us know in the registration form and we'll take care of it."
+    },
+    "faq9": {
+      "question": "Is the venue accessible?",
+      "answer": "Yes. The 42 Barcelona campus is adapted for people with reduced mobility. There will be a rest area, high-capacity WiFi, power outlets and extension cords in all work areas. If you need any specific accommodation, email us at info@softwarecrafters.barcelona and we'll arrange it."
+    },
+    "faq10": {
+      "question": "Will there be a communication channel?",
+      "answer": "Yes. We'll create a Telegram community to coordinate before and during the event. We'll share the link with all registered participants."
+    },
+    "faq11": {
+      "question": "Do I need prior hackathon experience?",
+      "answer": "No."
+    },
+    "faq12": {
       "question": "Will there be mentors and talks?",
       "answer": "Yes. There will be continuous mentoring to unblock issues and advance. Plus, profile-specific talks for devs, PMs and designers throughout the event."
     },
-    "faq8": {
+    "faq13": {
+      "question": "Who will the speakers and mentors be?",
+      "answer": "We'll publish the names and profiles of speakers and mentors a few days before the event. Stay tuned on this website and the Telegram channel."
+    },
+    "faq14": {
+      "question": "Are there prizes?",
+      "answer": "No. The prize is that what you build actually gets used."
+    },
+    "faq15": {
+      "question": "What happens to what we build?",
+      "answer": "The goal is that solutions have life beyond the event."
+    },
+    "faq16": {
       "question": "What happens with my idea if we don't finish it?",
       "answer": "You can keep working on it after. The goal is for it to have life beyond the event."
-    }
+    },
+    "faq17": {
+      "question": "Can I sponsor or collaborate with the event?",
+      "answer": "Yes! If you'd like to collaborate as a sponsor, mentor or in any other way, email us at info@softwarecrafters.barcelona and we'll tell you how to get involved."
+    },
+    "contact_prompt": "Have more questions? Reach out at"
+  },
+  "CodeOfConduct": {
+    "title": "Code of conduct",
+    "description": "All attendees, speakers, sponsors and volunteers at our event are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.",
+    "link_text": "Read the full code of conduct"
   },
   "Footer": {
     "tagline": "think · build · help",

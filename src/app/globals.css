@@ -4,7 +4,7 @@
   --background: #FAFAF8;
   --background-alt: #F0EFEB;
   --foreground: #151514;
-  --foreground-muted: #6B6B69;
+  --foreground-muted: #555554;
   --accent: #2B7A5B;
   --accent-hover: #1F5C43;
   --accent-light: #E8F3ED;
@@ -40,4 +40,16 @@ html {
 ::selection {
   background: var(--accent-light);
   color: var(--foreground);
+}
+
+/* Reduced motion: disable CSS transitions & animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
