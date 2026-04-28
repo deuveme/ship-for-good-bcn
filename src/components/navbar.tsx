@@ -102,7 +102,8 @@ export function Navbar() {
             aria-label={tHero("coming_soon")}
             className="text-sm font-medium bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover transition-colors"
           >
-            {t("register")}
+            <span className="sm:hidden">{t("register_short")}</span>
+            <span className="hidden sm:inline">{t("register")}</span>
           </a>
         </div>
       </div>
