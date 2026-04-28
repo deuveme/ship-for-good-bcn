@@ -31,7 +31,7 @@
     "whereLabel": "On",
     "whereValue": "42 Barcelona",
     "formatLabel": "Horari",
-    "formatValue": "Divendres 18:00–21:00 · Dissabte 9:00–21:00"
+    "formatValue": "Divendres 18:00–21:00 · Dissabte 10:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Programa",
@@ -41,7 +41,7 @@
     "day1_time": "18:00 – 21:00",
     "day1_description": "Civio presenta els reptes reals sobre els quals treballar. Es formen equips (pots venir amb el teu o unir-te a un). Primers sketches i networking.",
     "day2_title": "Dissabte 30 de maig",
-    "day2_time": "9:00 – 21:00",
+    "day2_time": "10:00 – 21:00",
     "day2_description": "Jornada completa de treball: dev, disseny i producte en paral·lel. Xerrades per perfil durant el dia. Mentoring continu per desbloquejar i avançar. Showcase final amb les solucions més ambicioses construïdes amb IA."
   },
   "CivioSection": {

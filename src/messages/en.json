@@ -31,7 +31,7 @@
     "whereLabel": "Where",
     "whereValue": "42 Barcelona",
     "formatLabel": "Schedule",
-    "formatValue": "Friday 18:00–21:00 · Saturday 9:00–21:00"
+    "formatValue": "Friday 18:00–21:00 · Saturday 10:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Schedule",
@@ -41,7 +41,7 @@
     "day1_time": "18:00 – 21:00",
     "day1_description": "Civio presents the real challenges to work on. Teams are formed (you can come with yours or join one). First sketches and networking.",
     "day2_title": "Saturday 30 May",
-    "day2_time": "9:00 – 21:00",
+    "day2_time": "10:00 – 21:00",
     "day2_description": "Full-day work session: dev, design and product running in parallel. Profile-specific talks throughout the day. Continuous mentoring to unblock and advance. Final showcase of the most ambitious solutions built with AI."
   },
   "CivioSection": {
