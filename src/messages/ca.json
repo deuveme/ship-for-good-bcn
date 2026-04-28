@@ -17,7 +17,8 @@
     }
   },
   "Hero": {
-    "headline": "No és una altra hackathon.\nEl que facis aquí canviarà alguna cosa de debò.",
+    "headline_top": "No és una altra hackathon.",
+    "headline_bottom": "Construeix per a qui de veritat ho necessita.",
     "subheadline": "Devs, Product Managers i Designers treballant junts per crear solucions reals. Sense premis. Sense fum. Només impacte.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",

@@ -17,7 +17,8 @@
     }
   },
   "Hero": {
-    "headline": "It's not another hackathon.\nWhat you build here will change something for real.",
+    "headline_top": "It's not another hackathon.",
+    "headline_bottom": "Build for those who truly need it.",
     "subheadline": "Devs, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
