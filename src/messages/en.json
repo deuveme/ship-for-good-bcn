@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "Ship For Good BCN — 1st Edition",
+    "title": "Ship For Good — 1st Edition",
     "description": "Devs, Product Managers and Designers working together to create real solutions for teams with impact. 29–30 May 2026 at 42 Barcelona."
   },
   "Navbar": {
@@ -31,7 +31,7 @@
     "whereLabel": "Where",
     "whereValue": "42 Barcelona",
     "formatLabel": "Schedule",
-    "formatValue": "Friday 18:00–21:00 · Saturday 10:00–21:00"
+    "formatValue": "Friday 18:00–21:00\nSaturday 10:00–21:00"
   },
   "Schedule": {
     "eyebrow": "Schedule",

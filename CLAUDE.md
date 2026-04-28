@@ -14,7 +14,7 @@ No test suite exists. Type-check with `tsc --noEmit`.
 
 ## Architecture
 
-Single-page landing site for Ship For Good BCN hackathon. Statically exported Next.js (App Router) deployed to GitHub Pages via GitHub Actions on every push to main.
+Single-page landing site for Ship For Good hackathon. Statically exported Next.js (App Router) deployed to GitHub Pages via GitHub Actions on every push to main.
 
 **Stack:** Next.js + React 19 + TypeScript + Tailwind CSS v4 + next-intl + motion (animations)
 

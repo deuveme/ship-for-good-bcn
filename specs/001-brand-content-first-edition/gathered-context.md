@@ -6,7 +6,7 @@
 
 Este repo es un fork de la web base para una hackathon social. La idea con esta feature es cambiar textos y logos para que tenga los oficiales de esta primera edición.
 
-Se trata de actualizar toda la web con el branding, textos y estructura oficial de la 1ª edición de Ship For Good BCN. Organización partner: Fundación Civio. Fechas: viernes 29 de mayo – sábado 30 de mayo de 2026 en 42 Barcelona.
+Se trata de actualizar toda la web con el branding, textos y estructura oficial de la 1ª edición de Ship For Good. Organización partner: Fundación Civio. Fechas: viernes 29 de mayo – sábado 30 de mayo de 2026 en 42 Barcelona.
 
 ## Visual Assets
 

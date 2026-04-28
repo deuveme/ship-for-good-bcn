@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Omit<Props, "children">): Pro
       title: t("title"),
       description: t("description"),
       url: `${BASE_URL}/${locale}`,
-      siteName: "Ship For Good BCN",
+      siteName: "Ship For Good",
       locale: ogLocale,
       alternateLocale: alternateLocales,
       type: "website",
@@ -92,7 +92,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Event",
-              name: "Ship For Good BCN — 1ª Edición",
+              name: "Ship For Good — 1ª Edición",
               startDate: "2026-05-29T18:00:00+02:00",
               endDate: "2026-05-30T21:00:00+02:00",
               eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
