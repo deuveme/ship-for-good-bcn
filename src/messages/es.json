@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Ship For Good — 1ª Edición",
-    "description": "Devs, Product Managers y Designers que trabajan en equipo para crear soluciones reales para equipos con impacto. 29–30 de mayo de 2026 en 42 Barcelona."
+    "description": "Devs, Data, Product Managers y Designers que trabajan en equipo para crear soluciones reales para equipos con impacto. 29–30 de mayo de 2026 en 42 Barcelona."
   },
   "Navbar": {
     "logo_alt": "Ship For Good",
@@ -19,7 +19,7 @@
   "Hero": {
     "headline_top": "No es otra hackathon.",
     "headline_bottom": "Construye para quien de verdad lo necesita.",
-    "subheadline": "Desarrollo, producto y diseño juntos para crear soluciones reales. Sin humo. Sin premios. Solo impacto.",
+    "subheadline": "Desarrollo, data, producto y diseño juntos para crear soluciones reales. Sin humo. Sin premios. Solo impacto.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
     "cta": "Registro abre este jueves 30 a las 11h",
@@ -42,7 +42,7 @@
     "day1_description": "Civio presenta los retos reales sobre los que trabajar. Se forman equipos (puedes venir con el tuyo o unirte a uno). Primeros sketches y networking.",
     "day2_title": "Sábado 30 de mayo",
     "day2_time": "10:00 – 21:00",
-    "day2_description": "Jornada completa de trabajo: dev, diseño y producto en paralelo. Charlas por perfil durante el día. Mentoring continuo para desbloquear y avanzar. Showcase final con las soluciones más ambiciosas construidas con IA."
+    "day2_description": "Jornada completa de trabajo: dev, data, diseño y producto en paralelo. Charlas por perfil durante el día. Mentoring continuo para desbloquear y avanzar. Showcase final con las soluciones más ambiciosas construidas con IA."
   },
   "CivioSection": {
     "title": "Nos ayudan",
@@ -60,12 +60,12 @@
     "title": "¿Qué obtienes?",
     "benefit_0": "Trabajo con impacto real, no es un ejercicio.",
     "benefit_1": "Product + IA + people — métricas reales, desarrollo de producto asistido por IA.",
-    "benefit_2": "Charlas específicas para perfiles de desarrollo, producto y diseño.",
+    "benefit_2": "Charlas específicas para perfiles de desarrollo, data, producto y diseño.",
     "benefit_3": "Mentoring durante el evento.",
     "benefit_4": "Showcase de soluciones ambiciosas construidas con IA.",
     "benefit_5": "Comunidad de personas que quieren construir cosas que importen.",
     "who_title": "¿Para quién es?",
-    "who_description": "Para profesionales del desarrollo, producto y diseño de cualquier nivel: estudiantes, juniors o seniors. Lo que importa es tu actitud.",
+    "who_description": "Para profesionales del desarrollo, data, producto y diseño de cualquier nivel: estudiantes, juniors o seniors. Lo que importa es tu actitud.",
     "who_tagline": "think · build · help"
   },
   "FAQ": {
@@ -117,7 +117,7 @@
     },
     "faq12": {
       "question": "¿Habrá mentores y charlas?",
-      "answer": "Sí. Habrá mentoring continuo para desbloquear problemas y avanzar. Además, charlas específicas para perfiles de desarrollo, producto y diseño durante el evento."
+      "answer": "Sí. Habrá mentoring continuo para desbloquear problemas y avanzar. Además, charlas específicas para perfiles de desarrollo, data, producto y diseño durante el evento."
     },
     "faq13": {
       "question": "¿Quiénes serán los speakers y mentores?",

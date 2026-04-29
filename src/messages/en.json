@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Ship For Good — 1st Edition",
-    "description": "Devs, Product Managers and Designers working together to create real solutions for teams with impact. 29–30 May 2026 at 42 Barcelona."
+    "description": "Devs, Data, Product Managers and Designers working together to create real solutions for teams with impact. 29–30 May 2026 at 42 Barcelona."
   },
   "Navbar": {
     "logo_alt": "Ship For Good",
@@ -19,7 +19,7 @@
   "Hero": {
     "headline_top": "It's not another hackathon.",
     "headline_bottom": "Build for those who truly need it.",
-    "subheadline": "Devs, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
+    "subheadline": "Devs, Data, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
     "cta": "Registration opens this Thursday 30 at 11 AM",
@@ -42,7 +42,7 @@
     "day1_description": "Civio presents the real challenges to work on. Teams are formed (you can come with yours or join one). First sketches and networking.",
     "day2_title": "Saturday 30 May",
     "day2_time": "10:00 – 21:00",
-    "day2_description": "Full-day work session: dev, design and product running in parallel. Profile-specific talks throughout the day. Continuous mentoring to unblock and advance. Final showcase of the most ambitious solutions built with AI."
+    "day2_description": "Full-day work session: dev, data, design and product running in parallel. Profile-specific talks throughout the day. Continuous mentoring to unblock and advance. Final showcase of the most ambitious solutions built with AI."
   },
   "CivioSection": {
     "title": "They help us",
@@ -60,12 +60,12 @@
     "title": "What do you get?",
     "benefit_0": "Real-impact work — not an exercise.",
     "benefit_1": "Product + AI + people — real metrics, AI-assisted product development.",
-    "benefit_2": "Profile-specific talks for devs, PMs and designers.",
+    "benefit_2": "Profile-specific talks for devs, data, PMs and designers.",
     "benefit_3": "Mentoring during the event.",
     "benefit_4": "Showcase of ambitious AI-powered solutions.",
     "benefit_5": "Community of people who want to build things that matter.",
     "who_title": "Who is it for?",
-    "who_description": "For developers, product managers and designers at any level: students, juniors or seniors. Your attitude is what matters.",
+    "who_description": "For developers, data professionals, product managers and designers at any level: students, juniors or seniors. Your attitude is what matters.",
     "who_tagline": "think · build · help"
   },
   "FAQ": {
@@ -117,7 +117,7 @@
     },
     "faq12": {
       "question": "Will there be mentors and talks?",
-      "answer": "Yes. There will be continuous mentoring to unblock issues and advance. Plus, profile-specific talks for devs, PMs and designers throughout the event."
+      "answer": "Yes. There will be continuous mentoring to unblock issues and advance. Plus, profile-specific talks for devs, data, PMs and designers throughout the event."
     },
     "faq13": {
       "question": "Who will the speakers and mentors be?",
