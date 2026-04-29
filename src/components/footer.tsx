@@ -5,8 +5,6 @@ import { useTranslations } from "next-intl";
 
 export function Footer() {
   const t = useTranslations("Footer");
-  const tHero = useTranslations("Hero");
-
   return (
     <footer className="py-24 sm:py-32">
       <div className="max-w-6xl mx-auto px-6">
@@ -25,8 +23,9 @@ export function Footer() {
           </p>
 
           <a
-            href="#faq"
-            aria-label={tHero("coming_soon")}
+            href="https://form.typeform.com/to/IAV9ttyy"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
           >
             {t("register_cta")}

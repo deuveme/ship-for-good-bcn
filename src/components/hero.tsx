@@ -67,8 +67,9 @@ export function Hero() {
 
         <motion.div variants={fadeUp}>
           <a
-            href="#faq"
-            aria-label={t("coming_soon")}
+            href="https://form.typeform.com/to/IAV9ttyy"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-accent text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-accent-hover transition-colors"
           >
             {t("cta")}
