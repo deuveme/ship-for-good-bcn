@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Ship For Good — 1a Edició",
-    "description": "Devs, Product Managers i Designers que treballen en equip per crear solucions reals per a equips amb impacte. 29–30 de maig de 2026 a 42 Barcelona."
+    "description": "Devs, Data, Product Managers i Designers que treballen en equip per crear solucions reals per a equips amb impacte. 29–30 de maig de 2026 a 42 Barcelona."
   },
   "Navbar": {
     "logo_alt": "Ship For Good",
@@ -19,7 +19,7 @@
   "Hero": {
     "headline_top": "No és una altra hackathon.",
     "headline_bottom": "Construeix per a qui de veritat ho necessita.",
-    "subheadline": "Devs, Product Managers i Designers treballant junts per crear solucions reals. Sense premis. Sense fum. Només impacte.",
+    "subheadline": "Devs, Data, Product Managers i Designers treballant junts per crear solucions reals. Sense premis. Sense fum. Només impacte.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
     "cta": "El registre obre aquest dijous 30 a les 11h",
@@ -42,7 +42,7 @@
     "day1_description": "Civio presenta els reptes reals sobre els quals treballar. Es formen equips (pots venir amb el teu o unir-te a un). Primers sketches i networking.",
     "day2_title": "Dissabte 30 de maig",
     "day2_time": "10:00 – 21:00",
-    "day2_description": "Jornada completa de treball: dev, disseny i producte en paral·lel. Xerrades per perfil durant el dia. Mentoring continu per desbloquejar i avançar. Showcase final amb les solucions més ambicioses construïdes amb IA."
+    "day2_description": "Jornada completa de treball: dev, data, disseny i producte en paral·lel. Xerrades per perfil durant el dia. Mentoring continu per desbloquejar i avançar. Showcase final amb les solucions més ambicioses construïdes amb IA."
   },
   "CivioSection": {
     "title": "Ens ajuden",
@@ -60,12 +60,12 @@
     "title": "Què obtens?",
     "benefit_0": "Treball amb impacte real, no és un exercici.",
     "benefit_1": "Product + IA + people — mètriques reals, desenvolupament de producte assistit per IA.",
-    "benefit_2": "Xerrades específiques per a perfils de desenvolupament, producte i disseny.",
+    "benefit_2": "Xerrades específiques per a perfils de desenvolupament, data, producte i disseny.",
     "benefit_3": "Mentoring durant l'esdeveniment.",
     "benefit_4": "Showcase de solucions ambicioses construïdes amb IA.",
     "benefit_5": "Comunitat de persones que volen construir coses que importin.",
     "who_title": "Per a qui és?",
-    "who_description": "Per a professionals del desenvolupament, producte i disseny de qualsevol nivell: estudiants, juniors o seniors. El que importa és la teva actitud.",
+    "who_description": "Per a professionals del desenvolupament, data, producte i disseny de qualsevol nivell: estudiants, juniors o seniors. El que importa és la teva actitud.",
     "who_tagline": "think · build · help"
   },
   "FAQ": {
@@ -117,7 +117,7 @@
     },
     "faq12": {
       "question": "Hi haurà mentors i xerrades?",
-      "answer": "Sí. Hi haurà mentoring continu per desbloquejar problemes i avançar. A més, xerrades específiques per a perfils de desenvolupament, producte i disseny durant l'esdeveniment."
+      "answer": "Sí. Hi haurà mentoring continu per desbloquejar problemes i avançar. A més, xerrades específiques per a perfils de desenvolupament, data, producte i disseny durant l'esdeveniment."
     },
     "faq13": {
       "question": "Qui seran els speakers i mentors?",
