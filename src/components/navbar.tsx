@@ -13,7 +13,6 @@ const NAV_SECTIONS = ["schedule", "how-it-works", "faq", "code-of-conduct"] as c
 
 export function Navbar() {
   const t = useTranslations("Navbar");
-  const tHero = useTranslations("Hero");
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -98,8 +97,9 @@ export function Navbar() {
           </div>
 
           <a
-            href="#faq"
-            aria-label={tHero("coming_soon")}
+            href="https://form.typeform.com/to/IAV9ttyy"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover transition-colors"
           >
             {t("register")}
