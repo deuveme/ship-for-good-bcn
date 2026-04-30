@@ -9,7 +9,7 @@
     "howItWorks": "Com funciona",
     "faq": "Preguntes",
     "codeOfConduct": "Codi de conducta",
-    "register": "Registre: dj 30 · 11h",
+    "register": "Registra't",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -22,8 +22,8 @@
     "subheadline": "Devs, Data, Product Managers i Designers treballant junts per crear solucions reals. Sense premis. Sense fum. Només impacte.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
-    "cta": "El registre obre aquest dijous 30 a les 11h",
-    "coming_soon": "El registre obre el dijous 30 d'abril a les 11:00h"
+    "cta": "Registra't ara →",
+    "coming_soon": "Registra't ara"
   },
   "InfoBar": {
     "whenLabel": "Quan",
@@ -149,8 +149,8 @@
   "Footer": {
     "tagline": "think · build · help",
     "closing": "Registra't i construïm alguna cosa amb impacte social.",
-    "register_cta": "Properament et podràs registrar →",
-    "coming_soon": "Proximament s'obrirà el registre",
+    "register_cta": "Registra't ara →",
+    "coming_soon": "Registra't ara",
     "year": "2026",
     "collaboration_prefix": "En col·laboració amb",
     "collaboration_and": "i"

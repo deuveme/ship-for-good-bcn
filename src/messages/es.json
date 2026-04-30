@@ -9,7 +9,7 @@
     "howItWorks": "Cómo funciona",
     "faq": "Preguntas",
     "codeOfConduct": "Código de conducta",
-    "register": "Registro: jue 30 · 11h",
+    "register": "Regístrate",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -22,8 +22,8 @@
     "subheadline": "Desarrollo, data, producto y diseño juntos para crear soluciones reales. Sin humo. Sin premios. Solo impacto.",
     "tagline": "think · build · help",
     "tags": "product · IA · people",
-    "cta": "Registro abre este jueves 30 a las 11h",
-    "coming_soon": "El registro abre el jueves 30 de abril a las 11:00h"
+    "cta": "Regístrate ahora →",
+    "coming_soon": "Regístrate ahora"
   },
   "InfoBar": {
     "whenLabel": "Cuándo",
@@ -149,8 +149,8 @@
   "Footer": {
     "tagline": "think · build · help",
     "closing": "Regístrate y construyamos algo con impacto social.",
-    "register_cta": "El registro abre el jueves 30 de abril a las 11h →",
-    "coming_soon": "El registro abre el jueves 30 de abril a las 11:00h",
+    "register_cta": "Regístrate ahora →",
+    "coming_soon": "Regístrate ahora",
     "year": "2026",
     "collaboration_prefix": "En colaboración con",
     "collaboration_and": "y"

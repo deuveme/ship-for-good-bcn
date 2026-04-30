@@ -9,7 +9,7 @@
     "howItWorks": "How it works",
     "faq": "FAQ",
     "codeOfConduct": "Code of conduct",
-    "register": "Register: Thu 30 · 11 AM",
+    "register": "Register",
     "language": {
       "es": "ES",
       "ca": "CA",
@@ -22,8 +22,8 @@
     "subheadline": "Devs, Data, Product Managers and Designers working together to create real solutions. No prizes. No hype. Only impact.",
     "tagline": "think · build · help",
     "tags": "product · AI · people",
-    "cta": "Registration opens this Thursday 30 at 11 AM",
-    "coming_soon": "Registration opens Thursday, April 30 at 11:00 AM"
+    "cta": "Register now →",
+    "coming_soon": "Register now"
   },
   "InfoBar": {
     "whenLabel": "When",
@@ -149,8 +149,8 @@
   "Footer": {
     "tagline": "think · build · help",
     "closing": "Sign up and let's build something with social impact.",
-    "register_cta": "Coming soon, you'll be able to register →",
-    "coming_soon": "Registration coming soon",
+    "register_cta": "Register now →",
+    "coming_soon": "Register now",
     "year": "2026",
     "collaboration_prefix": "In collaboration with",
     "collaboration_and": "and"
